@@ -1,0 +1,97 @@
+ .Radio1 input[type='radio']:checked:after {
+    content: '';
+    display:block;
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+margin-bottom: 10.5px;
+               margin-top: 10.5px;
+               margin-left: 10.5px;
+               margin-right: 10.5px;
+               
+}
+            
+            #r1{
+                width: 50px;
+                height: 50px;
+            }
+            
+            #r1:checked + span{
+                color: red;
+                align-content: center;
+            }
+            #span1{
+                position: absolute;
+                top: 25px;
+                bottom: 50px;
+                left: 65px;
+            }
+            
+            
+            .Radio2 input[type='radio']:checked:after {
+    content: '';
+    display:block;
+    background-color: blue;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+margin-bottom: 10.5px;
+               margin-top: 10.5px;
+               margin-left: 10.5px;
+               margin-right: 10.5px;
+               
+}
+            
+            #r2{
+                width: 50px;
+                height: 50px;
+            }
+            
+            #r2:checked + span{
+                color: blue;
+                align-content: center;
+            }
+
+            #span2{
+               position: absolute;
+                top: 85px;
+                bottom: 50px;
+                left: 65px; 
+            }
+            
+            .Radio3 input[type='radio']:checked:after {
+    content: '';
+    display:block;
+    background-color: green;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+margin-bottom: 10.5px;
+               margin-top: 10.5px;
+               margin-left: 10.5px;
+               margin-right: 10.5px;
+               
+}
+            
+            #r3{
+                width: 50px;
+                height: 50px;
+            }
+            
+            #r3:checked + span{
+                color: green;
+                align-content: center;
+            }
+
+            #span3{
+               position: absolute;
+                top: 140px;
+                left: 65px; 
+            }

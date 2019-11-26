@@ -1,0 +1,151 @@
+<!Doctype HTML>
+<html>
+    <head>
+        <title>Лабораторная №2</title>
+    <meta charset="utf-8">  
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style type="text/css">       
+            .Main{
+                display: flex;
+                justify-content:space-around;
+                width: 23%;
+          
+            }
+            .First{
+        
+                background-color: green;
+                order: 3;
+            }
+            .Second{
+
+                background-color: blue;
+                order: 4
+
+            }
+            .Third{
+                background-color: blue;
+                order: 1;
+
+            }
+            .Fourth{
+                background-color: red;
+                order: 2;
+            }
+            
+            .Absolute{
+                position: absolute;
+                top: 250px;
+                left: 50px;
+
+                background: red;
+            }
+            .Relative{
+                position: relative;
+                top: 50px;
+                left: 100px;
+                background: green;
+                width: 240px;
+
+            }
+            .Picture{
+                margin-top: 100px;
+            }
+/*
+            #img{
+                float: left;
+            }
+*/
+            #FirstP{
+                margin-top: -10px;
+            }
+            
+
+        </style>
+
+        </head>
+    
+        <body>       
+            <form>
+                <div class="Radio1">
+                    <input type="radio" id="r1" name="radio1"><span id="span1">Red-Radio</span>
+                </div>
+                <div class="Radio2">
+                    <input type="radio" id="r2" name="radio1"><span id="span2">Blue-Radio</span>
+                </div>
+                <div class="Radio3">
+                    <input type="radio" id="r3" name="radio1"><span id="span3">Green-Radio</span>
+                </div>
+                        
+
+            </form>
+            <div class="Main">
+                    
+                    <div class="First">
+                            <p>Я первый</p>                           
+                        </div>
+                    
+                    <div class="Second">
+                            <p>Я второй</p>                           
+                        </div>
+                
+                        <div class="Third">
+                            <p>Я третий</p>                           
+                        </div>
+                    
+                    <div class="Fourth">
+                            <p>Я четвертый</p>                           
+                        </div>      
+                </div>
+            
+            <div>
+                <div class="Absolute">
+                    <p>Абсолютное позиционирование</p>           
+                </div>
+                 <div class="Relative">
+                    <p>Относительное позиционирование</p>           
+                </div>
+            </div>
+            <div class="Picture">
+                <p style="color: grey"> Серые глаза – рассвет,<br>
+                    Пароходная сирена,<br>
+                    Дождь, разлука, серый след<br>
+                    За винтом бегущей пены.
+                </p>
+                <img style="float: left;" src="img.jpg">               
+                 <p> <br>
+                     Чёрные глаза – жара,<br>
+                     В море сонных звёзд скольженье,<br>
+                     И у борта до утра<br>
+                     Поцелуев отраженье.<br>
+                </p>  
+                <p style="color: blue"> Синие глаза – луна,<br>
+                    Вальса белое молчанье,<br>
+                    Ежедневная стена<br>
+                    Неизбежного прощанья.<br>
+                </p>
+                <p style="color:brown"> <br>
+                    Карие глаза – песок,<br>
+                    Осень, волчья степь, охота,<br>
+                    Скачка, вся на волосок<br>
+                    От паденья и полёта.<br>
+                </p>    
+                <p> <br>
+                    Нет, я не судья для них,<br>
+                    Просто без суждений вздорных<br>
+                    Я четырежды должник<br>
+                    Синих, серых, карих, чёрных.<br>
+                </p>
+                <p> Как четыре стороны<br>
+                    Одного того же света,<br>
+                    Я люблю – в том нет вины –<br>
+                    Все четыре этих цвета.
+                </p>
+            
+            
+            </div>
+            
+            
+            
+        </body>
+    
+</html>
